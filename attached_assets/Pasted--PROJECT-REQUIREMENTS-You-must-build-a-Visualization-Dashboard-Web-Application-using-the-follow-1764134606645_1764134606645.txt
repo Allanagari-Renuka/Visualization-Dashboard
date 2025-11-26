@@ -1,0 +1,208 @@
+📌 PROJECT REQUIREMENTS
+
+You must build a Visualization Dashboard Web Application using the following details:
+
+🔹 Core Requirements
+
+Use the provided JSON: jsondata.json
+
+Store this JSON data into MongoDB
+
+Create backend APIs using Node.js + Express (preferable)
+or Python FastAPI
+
+Frontend must be built using:
+
+React.js / Next.js (preferred)
+
+TailwindCSS or Bootstrap
+
+Use any chart library:
+
+D3.js (preferred), Chart.js, Recharts, ApexCharts, Highcharts
+
+📌 BACKEND REQUIREMENTS
+Create the following APIs:
+
+GET /api/data
+→ Return all documents from MongoDB.
+
+GET /api/filters
+→ Return unique filters:
+
+end_year
+
+topic
+
+sector
+
+region
+
+pestle
+
+source
+
+swot
+
+country
+
+city
+
+GET /api/data/filter
+Query parameters:
+
+?end_year=  
+&topic=  
+&sector=  
+&region=  
+&pestle=  
+&source=  
+&swot=  
+&country=  
+&city=
+
+
+→ Return filtered results based on user selections.
+
+Database Model
+Create a MongoDB collection with fields:
+
+intensity
+likelihood
+relevance
+year
+country
+topic
+region
+city
+sector
+pestle
+source
+swot
+
+📌 FRONTEND REQUIREMENTS
+Dashboard Pages to Generate
+
+Home Dashboard
+
+Charts & Insights
+
+Filters Panel
+
+Data Table View
+
+Responsive UI with Sidebar + Navbar
+
+Filters UI (must include all below):
+
+End Year (dropdown)
+
+Topics (multi select)
+
+Sector (multi select)
+
+Region (dropdown)
+
+PEST (dropdown)
+
+Source (dropdown)
+
+SWOT (dropdown)
+
+Country (dropdown)
+
+City (dropdown)
+
+Charts to Generate from JSON Data
+
+Intensity vs Year
+
+Likelihood Distribution
+
+Relevance Distribution
+
+Country-wise Insights
+
+Region-wise Data
+
+Topic Frequency Chart
+
+PEST Analysis Chart
+
+SWOT Heatmap
+
+City-wise Impact Chart
+
+📌 UI REQUIREMENTS
+
+Follow the styles similar to:
+
+https://pixinvent.com/demo/vuexy-vuejs-admin-dashboard-template/demo-2/dashboards/analytics
+
+https://pixinvent.com/demo/vuexy-vuejs-admin-dashboard-template/demo-2/charts/apex-chart
+
+https://pixinvent.com/demo/vuexy-vuejs-admin-dashboard-template/demo-2/charts/chartjs
+
+Use:
+
+✔ Sidebar (dark theme)
+✔ Navbar with filters
+✔ Cards for statistics
+✔ Charts section (grid)
+✔ Interactive hover animations
+✔ Smooth transitions
+✔ Responsive layout
+
+📌 WHAT YOU MUST GENERATE
+
+Generate the FULL PROJECT:
+
+✔ Complete MERN/Next.js Project Structure
+✔ Backend:
+
+MongoDB Connection
+
+Data Seeder (import jsondata.json into DB)
+
+All APIs (filters + charts data)
+
+✔ Frontend:
+
+Pages
+
+Components
+
+Filters UI
+
+Chart Components
+
+API integration
+
+State management (Context / Redux Toolkit / Zustand)
+
+✔ Use dummy UI placeholders
+✔ Use real chart components
+✔ Fully working code
+📌 EXTRA REQUIREMENT
+
+Include a README.md explaining:
+
+How to run backend
+
+How to run frontend
+
+How to import JSON into MongoDB
+
+Tech stack
+
+Features
+
+API documentation
+
+Folder structure
+
+🎯 NOW GENERATE THE COMPLETE PROJECT CODE with explanations removed.
+
+⚠️ Do NOT give summaries.
+⚠️ Provide full code for backend + frontend.
+⚠️ Use modern React + Tailwind + Node.js + MongoDB.   please give the full code    & please add above .json in the code & give the full code 
