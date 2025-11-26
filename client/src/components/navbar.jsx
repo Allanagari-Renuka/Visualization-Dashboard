@@ -1,4 +1,3 @@
-// Navbar.jsx
 import { Link, useLocation } from "wouter";
 import { Bell, Search, Filter, Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -84,11 +83,11 @@ export function Navbar({ onFilterToggle, showFilterButton = true }) {
             />
             <Avatar className="h-9 w-9">
               <AvatarImage
-                src="https://randomuser.me/api/portraits/women/65.jpg"   // <-- your image here
+                src="https://randomuser.me/api/portraits/women/65.jpg"  
                 alt="User"
               />
               <AvatarFallback className="bg-primary text-primary-foreground font-medium">
-                U
+                D
               </AvatarFallback>
             </Avatar>
           </Avatar>
