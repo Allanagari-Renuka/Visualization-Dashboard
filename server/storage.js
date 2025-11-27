@@ -1,12 +1,6 @@
-// server/storage.js
-
 import { randomUUID } from "crypto";
 import fs from "fs";
 import path from "path";
-import { fileURLToPath } from "url";
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
 
 class MemStorage {
   constructor() {
@@ -16,7 +10,7 @@ class MemStorage {
 
   loadData() {
     try {
-      const filepath = path.join(__dirname, "data.json");
+      const filepath = path.join(process.cwd(), "data.json");
       const content = fs.readFileSync(filepath, "utf-8");
       const json = JSON.parse(content);
 

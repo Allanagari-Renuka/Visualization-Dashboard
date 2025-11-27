@@ -20,7 +20,7 @@ export default async function runApp(setup) {
 
   await setup(app, server);
 
-  const port = Number(process.env.PORT || 5000);
+  const port = Number(process.env.PORT || 5001);
 
   // FIX: Do NOT start server twice
   if (!server.listening) {
