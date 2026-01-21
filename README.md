@@ -2,7 +2,7 @@
 
 A modern, interactive data visualization dashboard built with React, Node.js, and Drizzle ORM. Transform complex datasets into beautiful, insightful visualizations with real-time updates and dynamic filtering capabilities.
 
-[![Live Demo](https://img.shields.io/badge/demo-live-success?style=flat-square)](https://visualization-dashboard-fawn.vercel.app)
+[![Live Demo](https://visualization-dashboard-2-p2tc.onrender.com/)
 ![React](https://img.shields.io/badge/React-18.3.1-blue?logo=react)
 ![Node.js](https://img.shields.io/badge/Node.js-20.x-green?logo=node.js)
 ![Vite](https://img.shields.io/badge/Vite-6.0.1-purple?logo=vite)
