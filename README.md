@@ -598,10 +598,6 @@ Contributions are welcome! Here's how you can help:
 - Update documentation as needed
 - Ensure all tests pass before submitting PR
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 👥 Authors & Contributors
 
 - **Renuka Allanagari** - [@Allanagari-Renuka](https://github.com/Allanagari-Renuka)
