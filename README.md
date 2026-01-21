@@ -7,7 +7,6 @@ A modern, interactive data visualization dashboard built with React, Node.js, an
 ![Vite](https://img.shields.io/badge/Vite-6.0.1-purple?logo=vite)
 ![Drizzle](https://img.shields.io/badge/Drizzle-ORM-C5F74F?logo=drizzle)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.4.17-06B6D4?logo=tailwindcss)
-![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?logo=vercel)
 
 ## 🌟 Live Demo
 
